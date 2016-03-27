@@ -9,8 +9,8 @@ License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
 
-add_filter( 'cyclone_slider_template_list', 'cyclone_slider_template_tcycle' );
-function cyclone_slider_template_tcycle( $template_list ) {
+add_filter( 'cycloneslider_template_list', 'cycloneslider_template_tcycle' );
+function cycloneslider_template_tcycle( $template_list ) {
 
     $template_list[ 'tcycle' ] = array(
         'name'          => 'tCycle',
